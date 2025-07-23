@@ -19,6 +19,7 @@
 /* header */
 .header {
   padding-top: 30px;
+  margin-bottom: 120px;
 }
 /* nav styles */
 .nav {
@@ -65,4 +66,127 @@
 }
 .fresh {
   color: #e95a08;
+}
+/* plants section */
+.plants-section {
+  margin-bottom: 100px;
+}
+.plants-container {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.plants-container h1 {
+  font-size: 50px;
+  font-weight: 700;
+}
+.plants-container p {
+  width: 600px;
+  font-size: 17px;
+  font-weight: 400;
+  margin: 0 auto;
+  color: rgba(0, 0, 0, 0.5);
+  margin-top: 13px;
+  margin-bottom: 40px;
+}
+.plants-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 25px;
+  column-gap: 20px;
+}
+.card {
+  text-align: center;
+  color: #111111;
+  font-size: 17px;
+  font-weight: 500;
+}
+.card img {
+  margin-bottom: 20px;
+}
+.card-price {
+  margin-bottom: 12px;
+  margin-top: 8px;
+  font-weight: 700;
+}
+.card button {
+  width: 100%;
+  background-color: #e95a08;
+  border: none;
+  padding: 12px 0px;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+}
+/* plants lover section */
+.plants-lover-section {
+  display: flex;
+  align-items: center;
+  position: relative;
+  margin-bottom: 100px;
+}
+.plants-lover-container {
+  margin-left: 80px;
+  width: 440px;
+}
+.plants-lover-container h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.plants-lover-container ul li {
+  font-size: 22px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+.plants-lover-img-container {
+  position: relative;
+}
+.plants-lover-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+.badge-container {
+  position: absolute;
+  top: -100px;
+  left: 400px;
+}
+.badge {
+  width: 200px;
+}
+
+/* latest deal section */
+.latest-deal {
+  margin-bottom: 100px;
+}
+.latest-deal-img1 {
+  width: 366.22px;
+  height: 206px;
+  background-image: url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  margin-bottom: 14px;
+  border-radius: 10px;
+  /* border: 2px solid red; */
+  background-position: center;
+}
+.latest-deal-img2 {
+  width: 366.22px;
+  height: 206px;
+  background-image: url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 10px;
+}
+.latest-deal-img3 {
+  width: 753px;
+  height: 423.13px;
+  background-image: url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  background-position: center;
+}
+.latest-deal-img-container {
+  display: flex;
+  gap: 30px;
 }
