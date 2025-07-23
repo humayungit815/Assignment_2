@@ -229,3 +229,37 @@
   font-size: 40px;
   margin-bottom: 25px;
 }
+/* join section */
+.join {
+  background-image: url("../assets/news-letter-bg.png");
+  height: 533px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.join h1 {
+  font-size: 50px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 15px;
+}
+.input-container {
+  display: flex;
+}
+.input-container input {
+  padding: 15px;
+  width: 640px;
+}
+.input-container button {
+  padding: 15px 30px;
+  background-color: #e95a08;
+  font-size: 12px;
+  font-weight: 600;
+  color: white;
+  border: none;
+}
