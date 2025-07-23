@@ -126,7 +126,7 @@
 }
 .plants-lover-container {
   margin-left: 80px;
-  width: 440px;
+  width: 100%;
 }
 .plants-lover-container h1 {
   font-size: 50px;
@@ -141,6 +141,7 @@
 }
 .plants-lover-img-container {
   position: relative;
+  width: 100%;
 }
 .plants-lover-img {
   width: 100%;
@@ -163,30 +164,68 @@
 .latest-deal-img1 {
   width: 366.22px;
   height: 206px;
-  background-image: url("../assets/deal-ana.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-ana.png");
   background-repeat: no-repeat;
   margin-bottom: 14px;
   border-radius: 10px;
-  /* border: 2px solid red; */
   background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .latest-deal-img2 {
   width: 366.22px;
   height: 206px;
-  background-image: url("../assets/deal-bloom.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-bloom.png");
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 10px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .latest-deal-img3 {
   width: 753px;
   height: 423.13px;
-  background-image: url("../assets/deal-zabo.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-zabo.png");
+  /* background: rgba(0, 0, 0, 0.4), url(../assets/deal-zabo.png); */
   background-repeat: no-repeat;
   border-radius: 10px;
   background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .latest-deal-img-container {
   display: flex;
-  gap: 30px;
+  gap: 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+}
+.latest-deal-img1 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.latest-deal-img2 p {
+  font-size: 16px;
+  font-weight: 600;
+}
+.latest-deal-img3 p {
+  font-size: 20px;
+  font-weight: 600;
+}
+.latest-deal-img3 h4 {
+  font-size: 40px;
+  margin-bottom: 25px;
 }
