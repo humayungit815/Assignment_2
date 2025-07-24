@@ -45,6 +45,9 @@
   color: #8987a1;
   font-weight: 400;
 }
+.cart-price {
+  margin-left: 10px;
+}
 #home {
   font-weight: 700;
   color: #252432;
@@ -298,8 +301,6 @@
 }
 .footer-img img {
   margin-left: 20px;
-}
-
-.hide {
-  display: none;
+  width: 30px;
+  height: 30px;
 }
