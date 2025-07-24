@@ -46,22 +46,18 @@
   }
   .plants-cards {
     grid-template-columns: repeat(2, 1fr);
+
+    column-gap: 20px;
+    padding: 20px;
   }
   .plants-container p {
     width: 100%;
-  }
-  .card {
-    width: 80%;
-    margin: 0 auto;
   }
   .card img {
     width: 100%;
   }
   .plants-container {
     padding: 0px 20px;
-  }
-  .plants-cards {
-    column-gap: 0px;
   }
   /* plants-lover-section */
   .plants-lover-section {
